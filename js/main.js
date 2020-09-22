@@ -1,4 +1,3 @@
-
 $(document).ready(function(){
   'use strict'; // 코드를 엄격하게 처리
   paper.install(window);
@@ -24,7 +23,7 @@ $(document).ready(function(){
   text.fillColor = 'white';
   text.fontSize = 20;
   text.content = 'hello';
-  
+
   tool.onMouseDown = function(event){
     // var c = Shape.Circle(event.point.x, event.point.y, 10);
     var c = Shape.Circle(event.point, 10); // 윗 줄 코드와 동일
